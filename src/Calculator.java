@@ -14,6 +14,7 @@ public class Calculator {
 
         for(int i = start; i <= end; i++) {
            if(i % 2 == 0) {
+               System.out.println("i= "+i);
                sum += i; //sum=sum+i;
            }
         }
